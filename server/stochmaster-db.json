@@ -1,0 +1,643 @@
+{
+  "users": [
+    {
+      "name": "Dharshini prabhu",
+      "email": "dharshiniprabhu2008@gmail.com",
+      "passwordHash": "$2b$10$MvpzfSPjM/u8DNRoWqAXPefGaeJ3K6gjFmMlwvZkdAwBmth71Xoiu",
+      "role": "admin",
+      "avatarUrl": "/src/assets/images/avatar_manager_1795368919229.jpg",
+      "id": "usr-853baa39",
+      "createdAt": "2026-11-25T12:23:02.595Z"
+    },
+    {
+      "name": "Dekshana",
+      "email": "25bca014@kgcas.com",
+      "passwordHash": "$2b$10$Au6c2utaRKJTVlUoyytY4O61PTpEbnzlo.4mGMSr8lsixfu0YYLxe",
+      "role": "staff",
+      "avatarUrl": "",
+      "id": "usr-cd2c38d5",
+      "createdAt": "2026-11-25T12:26:11.739Z"
+    },
+    {
+      "name": "Dharshini prabhu",
+      "email": "unnukrish29@gmail.com",
+      "passwordHash": "$2b$10$s4ykf4lkiFyaAuTKN4iwi.AhztprUICfkK3R.V9sOuSmHeyapFxmi",
+      "role": "staff",
+      "avatarUrl": "",
+      "id": "usr-8acf9f37",
+      "createdAt": "2026-11-25T14:40:43.345Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-peripherals",
+      "name": "Input & Peripherals",
+      "description": "Keyboards, mice, barcode scanners, and workstation input hardware.",
+      "createdAt": "2026-06-27T16:27:40.454Z"
+    },
+    {
+      "id": "cat-displays",
+      "name": "Displays & Monitors",
+      "description": "4K studio monitors, ultrawide panels, and mounting arms.",
+      "createdAt": "2026-06-29T16:27:40.458Z"
+    },
+    {
+      "id": "cat-audio",
+      "name": "Commercial Audio",
+      "description": "Noise-canceling headsets, conference speakers, and studio microphones.",
+      "createdAt": "2026-07-02T16:27:40.458Z"
+    },
+    {
+      "id": "cat-warehouse",
+      "name": "Warehouse & POS",
+      "description": "Thermal label printers, handheld RFID/barcode scanners, and receipt rolls.",
+      "createdAt": "2026-07-07T16:27:40.458Z"
+    },
+    {
+      "id": "cat-networking",
+      "name": "Connectivity & Power",
+      "description": "Thunderbolt docks, managed switches, GaN power adapters, and UPS units.",
+      "createdAt": "2026-07-12T16:27:40.458Z"
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "sup-kinetix",
+      "name": "Kinetix Hardware Supply",
+      "contactPerson": "Marcus Vance",
+      "email": "orders@kinetixsupply.example.com",
+      "phone": "+1 (415) 890-2310",
+      "address": "420 Townsend St, Suite 300, San Francisco, CA",
+      "createdAt": "2026-06-27T16:27:40.458Z"
+    },
+    {
+      "id": "sup-lumina",
+      "name": "Lumina Display Corp",
+      "contactPerson": "Elena Rostova",
+      "email": "b2b@luminadisplays.example.com",
+      "phone": "+1 (206) 554-8821",
+      "address": "1100 Dexter Ave N, Seattle, WA",
+      "createdAt": "2026-07-01T16:27:40.458Z"
+    },
+    {
+      "id": "sup-acoustica",
+      "name": "Acoustica Pro Audio",
+      "contactPerson": "Devon Brooks",
+      "email": "fulfillment@acousticapro.example.com",
+      "phone": "+1 (512) 402-7740",
+      "address": "800 Congress Ave, Austin, TX",
+      "createdAt": "2026-07-05T16:27:40.458Z"
+    },
+    {
+      "id": "sup-nordic",
+      "name": "Nordic Logistics Systems",
+      "contactPerson": "Soren Lindqvist",
+      "email": "sales@nordiclogistics.example.com",
+      "phone": "+1 (312) 619-4490",
+      "address": "215 W Superior St, Chicago, IL",
+      "createdAt": "2026-07-09T16:27:40.458Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Anodized Mechanical Keyboard TKL",
+      "sku": "INP-ANME-0001",
+      "categoryId": "cat-peripherals",
+      "supplierId": "sup-kinetix",
+      "purchasePrice": 82,
+      "sellingPrice": 149,
+      "quantity": 42,
+      "minStockLevel": 12,
+      "description": "CNC aluminum tenkeyless mechanical keyboard with hot-swappable tactile switches and braided USB-C cable.",
+      "imageUrl": "/src/assets/images/product_keyboard_1795368918834.jpg",
+      "createdAt": "2026-07-27T16:27:40.458Z",
+      "updatedAt": "2026-11-22T16:27:40.458Z"
+    },
+    {
+      "id": "prod-2",
+      "name": "Studio ANC Wireless Headphones",
+      "sku": "COM-STANC-0002",
+      "categoryId": "cat-audio",
+      "supplierId": "sup-acoustica",
+      "purchasePrice": 115,
+      "sellingPrice": 229,
+      "quantity": 28,
+      "minStockLevel": 10,
+      "description": "Hybrid active noise-canceling over-ear headset with 40-hour battery life and multipoint Bluetooth 5.3.",
+      "imageUrl": "/src/assets/images/product_headphones_1795368919047.jpg",
+      "createdAt": "2026-07-29T16:27:40.458Z",
+      "updatedAt": "2026-11-21T16:27:40.458Z"
+    },
+    {
+      "id": "prod-3",
+      "name": "UltraSharp 27\" 4K Reference Monitor",
+      "sku": "DIS-UL4K-0003",
+      "categoryId": "cat-displays",
+      "supplierId": "sup-lumina",
+      "purchasePrice": 310,
+      "sellingPrice": 549,
+      "quantity": 7,
+      "minStockLevel": 10,
+      "description": "Frameless 27-inch IPS 4K UHD display with 98% DCI-P3 coverage and 90W USB-C power delivery.",
+      "imageUrl": "/src/assets/images/product_monitor_1795368919549.jpg",
+      "createdAt": "2026-08-01T16:27:40.458Z",
+      "updatedAt": "2026-11-23T16:27:40.458Z"
+    },
+    {
+      "id": "prod-4",
+      "name": "ProScan Wireless Barcode & Label Kit",
+      "sku": "WAR-PRBA-0004",
+      "categoryId": "cat-warehouse",
+      "supplierId": "sup-nordic",
+      "purchasePrice": 145,
+      "sellingPrice": 265,
+      "quantity": 19,
+      "minStockLevel": 8,
+      "description": "2D handheld warehouse barcode scanner paired with a high-speed 300dpi direct thermal label printer.",
+      "imageUrl": "/src/assets/images/product_scanner_1795368919149.jpg",
+      "createdAt": "2026-08-06T16:27:40.458Z",
+      "updatedAt": "2026-11-20T16:27:40.458Z"
+    },
+    {
+      "id": "prod-5",
+      "name": "Precision Wireless Ergonomic Mouse",
+      "sku": "INP-PRWI-0005",
+      "categoryId": "cat-peripherals",
+      "supplierId": "sup-kinetix",
+      "purchasePrice": 34,
+      "sellingPrice": 79,
+      "quantity": 64,
+      "minStockLevel": 15,
+      "description": "Sculpted wireless productivity mouse with electromagnetic scroll wheel and 8000 DPI sensor.",
+      "imageUrl": "",
+      "createdAt": "2026-08-11T16:27:40.458Z",
+      "updatedAt": "2026-11-19T16:27:40.458Z"
+    },
+    {
+      "id": "prod-6",
+      "name": "Thunderbolt 4 Pro Docking Station",
+      "sku": "CON-THPR-0006",
+      "categoryId": "cat-networking",
+      "supplierId": "sup-kinetix",
+      "purchasePrice": 128,
+      "sellingPrice": 249,
+      "quantity": 5,
+      "minStockLevel": 8,
+      "description": "16-port Thunderbolt 4 aluminum dock supporting dual 4K 60Hz displays and 2.5Gb Ethernet.",
+      "imageUrl": "",
+      "createdAt": "2026-08-16T16:27:40.458Z",
+      "updatedAt": "2026-11-22T16:27:40.458Z"
+    },
+    {
+      "id": "prod-7",
+      "name": "Direct Thermal Shipping Labels (Roll 1000)",
+      "sku": "WAR-DITH-0007",
+      "categoryId": "cat-warehouse",
+      "supplierId": "sup-nordic",
+      "purchasePrice": 11.5,
+      "sellingPrice": 24,
+      "quantity": 112,
+      "minStockLevel": 25,
+      "description": "4x6 inch smudge-resistant thermal shipping label rolls compatible with Print-Label 3000 and Zebra printers.",
+      "imageUrl": "",
+      "createdAt": "2026-08-21T16:27:40.458Z",
+      "updatedAt": "2026-11-18T16:27:40.458Z"
+    },
+    {
+      "id": "prod-8",
+      "name": "34\" Curved Ultrawide Productivity Display",
+      "sku": "DIS-CUUL-0008",
+      "categoryId": "cat-displays",
+      "supplierId": "sup-lumina",
+      "purchasePrice": 410,
+      "sellingPrice": 699,
+      "quantity": 11,
+      "minStockLevel": 5,
+      "description": "WQHD 3440x1440 curved monitor with integrated KVM switch and height-adjustable aluminum stand.",
+      "imageUrl": "",
+      "createdAt": "2026-08-26T16:27:40.458Z",
+      "updatedAt": "2026-11-17T16:27:40.458Z"
+    },
+    {
+      "id": "prod-9",
+      "name": "Omnidirectional Conference Speakerphone",
+      "sku": "COM-OMCO-0009",
+      "categoryId": "cat-audio",
+      "supplierId": "sup-acoustica",
+      "purchasePrice": 68,
+      "sellingPrice": 139,
+      "quantity": 3,
+      "minStockLevel": 8,
+      "description": "Full-duplex 6-microphone array conference speakerphone with acoustic echo cancellation.",
+      "imageUrl": "",
+      "createdAt": "2026-08-31T16:27:40.458Z",
+      "updatedAt": "2026-11-23T16:27:40.458Z"
+    },
+    {
+      "id": "prod-10",
+      "name": "Managed 24-Port Gigabit PoE+ Switch",
+      "sku": "CON-MA24-0010",
+      "categoryId": "cat-networking",
+      "supplierId": "sup-nordic",
+      "purchasePrice": 195,
+      "sellingPrice": 349,
+      "quantity": 14,
+      "minStockLevel": 6,
+      "description": "Rackmount Layer-2 managed switch with 24 PoE+ ports (370W budget) and dual 10G SFP+ uplinks.",
+      "imageUrl": "",
+      "createdAt": "2026-09-05T16:27:40.458Z",
+      "updatedAt": "2026-11-19T16:27:40.458Z"
+    },
+    {
+      "id": "prod-11",
+      "name": "Heavy-Duty Dual Monitor Gas Arm",
+      "sku": "DIS-HEDU-0011",
+      "categoryId": "cat-displays",
+      "supplierId": "sup-lumina",
+      "purchasePrice": 52,
+      "sellingPrice": 119,
+      "quantity": 0,
+      "minStockLevel": 6,
+      "description": "Counterbalanced pneumatic dual-arm VESA mount supporting monitors up to 34 inches and 10kg each.",
+      "imageUrl": "",
+      "createdAt": "2026-09-10T16:27:40.458Z",
+      "updatedAt": "2026-11-23T16:27:40.458Z"
+    },
+    {
+      "id": "prod-12",
+      "name": "140W GaN Multi-Port USB-C Charger",
+      "sku": "CON-14GA-0012",
+      "categoryId": "cat-networking",
+      "supplierId": "sup-kinetix",
+      "purchasePrice": 38,
+      "sellingPrice": 89,
+      "quantity": 36,
+      "minStockLevel": 12,
+      "description": "Compact Gallium Nitride 4-port PD 3.1 desktop power adapter for laptops and workstations.",
+      "imageUrl": "",
+      "createdAt": "2026-09-15T16:27:40.458Z",
+      "updatedAt": "2026-11-21T16:27:40.458Z"
+    }
+  ],
+  "stockMovements": [
+    {
+      "id": "mov-1",
+      "productId": "prod-1",
+      "productName": "Anodized Mechanical Keyboard TKL",
+      "sku": "INP-ANME-0001",
+      "supplierId": "sup-kinetix",
+      "supplierName": "Kinetix Hardware Supply",
+      "type": "in",
+      "quantity": 50,
+      "previousQuantity": 0,
+      "newQuantity": 50,
+      "unitCost": 82,
+      "reference": "PO-2026-081",
+      "notes": "Q3 initial warehouse restock",
+      "performedBy": "System Seed",
+      "createdAt": "2026-08-26T16:27:40.458Z"
+    },
+    {
+      "id": "mov-2",
+      "productId": "prod-3",
+      "productName": "UltraSharp 27\" 4K Reference Monitor",
+      "sku": "DIS-UL4K-0003",
+      "supplierId": "sup-lumina",
+      "supplierName": "Lumina Display Corp",
+      "type": "in",
+      "quantity": 20,
+      "previousQuantity": 0,
+      "newQuantity": 20,
+      "unitCost": 310,
+      "reference": "PO-2026-084",
+      "notes": "Pallet delivery received at Dock B",
+      "performedBy": "System Seed",
+      "createdAt": "2026-09-13T16:27:40.458Z"
+    },
+    {
+      "id": "mov-3",
+      "productId": "prod-2",
+      "productName": "Studio ANC Wireless Headphones",
+      "sku": "COM-STANC-0002",
+      "supplierId": "sup-acoustica",
+      "supplierName": "Acoustica Pro Audio",
+      "type": "in",
+      "quantity": 35,
+      "previousQuantity": 0,
+      "newQuantity": 35,
+      "unitCost": 115,
+      "reference": "PO-2026-092",
+      "notes": "Batch #A412 verified QC",
+      "performedBy": "System Seed",
+      "createdAt": "2026-10-01T16:27:40.458Z"
+    },
+    {
+      "id": "mov-4",
+      "productId": "prod-4",
+      "productName": "ProScan Wireless Barcode & Label Kit",
+      "sku": "WAR-PRBA-0004",
+      "supplierId": "sup-nordic",
+      "supplierName": "Nordic Logistics Systems",
+      "type": "in",
+      "quantity": 25,
+      "previousQuantity": 0,
+      "newQuantity": 25,
+      "unitCost": 145,
+      "reference": "PO-2026-103",
+      "notes": "Warehouse operations bundle",
+      "performedBy": "System Seed",
+      "createdAt": "2026-10-23T16:27:40.458Z"
+    },
+    {
+      "id": "mov-5",
+      "productId": "prod-6",
+      "productName": "Thunderbolt 4 Pro Docking Station",
+      "sku": "CON-THPR-0006",
+      "supplierId": "sup-kinetix",
+      "supplierName": "Kinetix Hardware Supply",
+      "type": "out",
+      "quantity": 4,
+      "previousQuantity": 9,
+      "newQuantity": 5,
+      "reference": "INT-DISP-019",
+      "notes": "Internal IT provisioning for engineering onboarding",
+      "performedBy": "System Seed",
+      "createdAt": "2026-11-18T16:27:40.458Z"
+    },
+    {
+      "id": "mov-6",
+      "productId": "prod-11",
+      "productName": "Heavy-Duty Dual Monitor Gas Arm",
+      "sku": "DIS-HEDU-0011",
+      "supplierId": "sup-lumina",
+      "supplierName": "Lumina Display Corp",
+      "type": "out",
+      "quantity": 4,
+      "previousQuantity": 4,
+      "newQuantity": 0,
+      "reference": "INT-DISP-020",
+      "notes": "Fulfilled enterprise workstation order",
+      "performedBy": "System Seed",
+      "createdAt": "2026-11-22T16:27:40.458Z"
+    }
+  ],
+  "sales": [
+    {
+      "id": "sale-1",
+      "invoiceNumber": "INV-2026-1001",
+      "customerName": "Meridian Architecture Studio",
+      "customerEmail": "procurement@meridianarch.example.com",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "UltraSharp 27\" 4K Reference Monitor",
+          "sku": "DIS-UL4K-0003",
+          "quantity": 4,
+          "unitPrice": 549,
+          "lineTotal": 2196
+        },
+        {
+          "productId": "prod-1",
+          "productName": "Anodized Mechanical Keyboard TKL",
+          "sku": "INP-ANME-0001",
+          "quantity": 4,
+          "unitPrice": 149,
+          "lineTotal": 596
+        }
+      ],
+      "subtotal": 2792,
+      "taxRate": 0.08,
+      "taxAmount": 223.36,
+      "totalAmount": 3015.36,
+      "paymentMethod": "invoice",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-07-12T16:27:40.458Z"
+    },
+    {
+      "id": "sale-2",
+      "invoiceNumber": "INV-2026-1002",
+      "customerName": "Cobalt BioLabs Inc.",
+      "customerEmail": "ap@cobaltbio.example.com",
+      "items": [
+        {
+          "productId": "prod-4",
+          "productName": "ProScan Wireless Barcode & Label Kit",
+          "sku": "WAR-PRBA-0004",
+          "quantity": 6,
+          "unitPrice": 265,
+          "lineTotal": 1590
+        },
+        {
+          "productId": "prod-7",
+          "productName": "Direct Thermal Shipping Labels (Roll 1000)",
+          "sku": "WAR-DITH-0007",
+          "quantity": 20,
+          "unitPrice": 24,
+          "lineTotal": 480
+        }
+      ],
+      "subtotal": 2070,
+      "taxRate": 0.08,
+      "taxAmount": 165.6,
+      "totalAmount": 2235.6,
+      "paymentMethod": "bank_transfer",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-08-11T16:27:40.458Z"
+    },
+    {
+      "id": "sale-3",
+      "invoiceNumber": "INV-2026-1003",
+      "customerName": "Vanguard Retail Group",
+      "customerEmail": "ops@vanguardretail.example.com",
+      "items": [
+        {
+          "productId": "prod-10",
+          "productName": "Managed 24-Port Gigabit PoE+ Switch",
+          "sku": "CON-MA24-0010",
+          "quantity": 5,
+          "unitPrice": 349,
+          "lineTotal": 1745
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Studio ANC Wireless Headphones",
+          "sku": "COM-STANC-0002",
+          "quantity": 8,
+          "unitPrice": 229,
+          "lineTotal": 1832
+        }
+      ],
+      "subtotal": 3577,
+      "taxRate": 0.08,
+      "taxAmount": 286.16,
+      "totalAmount": 3863.16,
+      "paymentMethod": "card",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-09-09T16:27:40.458Z"
+    },
+    {
+      "id": "sale-4",
+      "invoiceNumber": "INV-2026-1004",
+      "customerName": "Harbor Logistics Partners",
+      "customerEmail": "purchasing@harborlp.example.com",
+      "items": [
+        {
+          "productId": "prod-8",
+          "productName": "34\" Curved Ultrawide Productivity Display",
+          "sku": "DIS-CUUL-0008",
+          "quantity": 5,
+          "unitPrice": 699,
+          "lineTotal": 3495
+        },
+        {
+          "productId": "prod-6",
+          "productName": "Thunderbolt 4 Pro Docking Station",
+          "sku": "CON-THPR-0006",
+          "quantity": 5,
+          "unitPrice": 249,
+          "lineTotal": 1245
+        }
+      ],
+      "subtotal": 4740,
+      "taxRate": 0.08,
+      "taxAmount": 379.2,
+      "totalAmount": 5119.2,
+      "paymentMethod": "invoice",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-10-10T16:27:40.458Z"
+    },
+    {
+      "id": "sale-5",
+      "invoiceNumber": "INV-2026-1005",
+      "customerName": "Northstar Financial Advisory",
+      "customerEmail": "it@northstarfa.example.com",
+      "items": [
+        {
+          "productId": "prod-5",
+          "productName": "Precision Wireless Ergonomic Mouse",
+          "sku": "INP-PRWI-0005",
+          "quantity": 12,
+          "unitPrice": 79,
+          "lineTotal": 948
+        },
+        {
+          "productId": "prod-12",
+          "productName": "140W GaN Multi-Port USB-C Charger",
+          "sku": "CON-14GA-0012",
+          "quantity": 10,
+          "unitPrice": 89,
+          "lineTotal": 890
+        }
+      ],
+      "subtotal": 1838,
+      "taxRate": 0.08,
+      "taxAmount": 147.04,
+      "totalAmount": 1985.04,
+      "paymentMethod": "card",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-11-03T16:27:40.458Z"
+    },
+    {
+      "id": "sale-6",
+      "invoiceNumber": "INV-2026-1006",
+      "customerName": "Apex Creative Agency",
+      "customerEmail": "studio@apexcreative.example.com",
+      "items": [
+        {
+          "productId": "prod-3",
+          "productName": "UltraSharp 27\" 4K Reference Monitor",
+          "sku": "DIS-UL4K-0003",
+          "quantity": 3,
+          "unitPrice": 549,
+          "lineTotal": 1647
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Studio ANC Wireless Headphones",
+          "sku": "COM-STANC-0002",
+          "quantity": 3,
+          "unitPrice": 229,
+          "lineTotal": 687
+        }
+      ],
+      "subtotal": 2334,
+      "taxRate": 0.08,
+      "taxAmount": 186.72,
+      "totalAmount": 2520.72,
+      "paymentMethod": "bank_transfer",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-11-15T16:27:40.458Z"
+    },
+    {
+      "id": "sale-7",
+      "invoiceNumber": "INV-2026-1007",
+      "customerName": "Summit Engineering Co.",
+      "customerEmail": "supply@summiteng.example.com",
+      "items": [
+        {
+          "productId": "prod-9",
+          "productName": "Omnidirectional Conference Speakerphone",
+          "sku": "COM-OMCO-0009",
+          "quantity": 4,
+          "unitPrice": 139,
+          "lineTotal": 556
+        },
+        {
+          "productId": "prod-1",
+          "productName": "Anodized Mechanical Keyboard TKL",
+          "sku": "INP-ANME-0001",
+          "quantity": 4,
+          "unitPrice": 149,
+          "lineTotal": 596
+        }
+      ],
+      "subtotal": 1152,
+      "taxRate": 0.08,
+      "taxAmount": 92.16,
+      "totalAmount": 1244.16,
+      "paymentMethod": "card",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-11-21T16:27:40.458Z"
+    },
+    {
+      "id": "sale-8",
+      "invoiceNumber": "INV-2026-1008",
+      "customerName": "BlueRidge Fulfillment LLC",
+      "customerEmail": "receiving@blueridge.example.com",
+      "items": [
+        {
+          "productId": "prod-4",
+          "productName": "ProScan Wireless Barcode & Label Kit",
+          "sku": "WAR-PRBA-0004",
+          "quantity": 2,
+          "unitPrice": 265,
+          "lineTotal": 530
+        },
+        {
+          "productId": "prod-7",
+          "productName": "Direct Thermal Shipping Labels (Roll 1000)",
+          "sku": "WAR-DITH-0007",
+          "quantity": 10,
+          "unitPrice": 24,
+          "lineTotal": 240
+        }
+      ],
+      "subtotal": 770,
+      "taxRate": 0.08,
+      "taxAmount": 61.6,
+      "totalAmount": 831.6,
+      "paymentMethod": "cash",
+      "status": "completed",
+      "createdBy": "Operations Admin",
+      "createdAt": "2026-11-24T16:27:40.458Z"
+    }
+  ]
+}
